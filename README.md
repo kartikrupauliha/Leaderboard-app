@@ -16,10 +16,11 @@ To run the application:
 - Make sure that the all the cookies and tokens of the browser are removed before running the app. 
 Delete any cookies or site data for **localhost:3000**
 - Now, when the app runs, it will direct to a landing page.
-- Create a new user by clicking on "Sign Up" button with credentials  Name: "user2", email: "user@admin.com", password: "admin@123". Then open mongodb compass and manually change the "isAdmin" status of this specific user to "true".
+- Create a new user by clicking on "Sign Up" button with credentials  Name: "user2", email: "user@admin.com", password: "admin@123". Then open mongodb compass and manually change the "isAdmin" status of this specific user to "true". (This "isAdmin":"true" should be only for admin not any other normal user)
 
 
 After logging in as Admin. you can create new assignments and they will be displayed on the landing page.
+
 
 Tech stack used:
 - Mongodb

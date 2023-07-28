@@ -1,5 +1,5 @@
 # Leaderboard App
-## Intern Project
+
 
 Make a .env file and mention in it the following:
 - ATLAS_URI = <URL of your mongodb database>
@@ -13,13 +13,15 @@ You can use any other ADMIN_STRING too by just entering the crypted version of i
 To run the application:
 - Open termnial. Go to frontend directory, type command "npm install" to download all the packages/dependencies (node modules). After installing the node modules, run "npm start" to launch the frontend part which is made using React.js
 - Open another terminal. Go to backend directory, type command "npm install" to download the backend dependencies (node modules). After installing the node modules, run "npm run start" to launch the backend part of the server made using Node.js
-- Load the data from the json files I have uploaded alongside the project to mongo database through mongodb compass.
+- Create a user by clicking on "Sign Up" button with credentials  Name: "user2", email: "user@admin.com", password: "admin@123". Then open mongodb compass and manually change the "isAdmin" status of this specific user to "true".
 
 
 Make sure that the all the cookies and tokens of the browser are removed before running the app. 
 Delete any cookies or site data for **localhost:3000**
 
 Now, when the app runs, it will direct to a landing page. You can create a new user yourself or login as an admin with credentials: "user@admin.com" and password: "admin@123". 
+
+After logging in as Admin. you can create new assignments and they will be displayed on the landing page.
 
 Tech stack used:
 - Mongodb
